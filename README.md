@@ -1,6 +1,6 @@
 # 13 Zabbix & Prometheus + Grafana
 
-## Install Zabbix from reposytory.
+## Install Zabbix from repository.
 
 `SELinux` в `permissive` (необязательный)
 ```php
