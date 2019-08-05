@@ -35,6 +35,7 @@ useradd –m –s /bin/bash -g zabbix zabbix
 useradd –m –s /bin/bash -g zabbix zabbixsvr
 ```
 
+Установка `Zabbix` из пакетов.
 ```php
 yum install zabbix-server-mysql -y
 yum install zabbix-web-mysql -y
