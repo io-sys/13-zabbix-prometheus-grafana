@@ -1,5 +1,6 @@
 # 13 Zabbix & Prometheus + Grafana
 
+# Install Zabbix from reposytory.
 
 `SELinux` в `permissive` (необязательный)
 ```php
@@ -74,7 +75,7 @@ mysql> quit;
 zcat /usr/share/doc/zabbix-server-mysql-4.2.4/create.sql.gz | mysql -uzabbix -ppass1234 zabbix
 ```
 
-Редактирование временной зоны, по умолчанию  `php_value date.timezone` `Europe/Riga`
+Редактирование временной зоны, по умолчанию  `php_value date.timezone` `Europe/Riga`  
 надо раскомментировать # и добавить своё
 ```php
 vi /etc/httpd/conf.d/zabbix.conf
