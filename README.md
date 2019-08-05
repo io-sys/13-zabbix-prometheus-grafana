@@ -55,10 +55,10 @@ iptables-save
 ```php
 cat /etc/zabbix/zabbix_server.conf
 ```
-`DBHost=localhost  
-DBName=zabbix  
-DBUser=zabbix  
-DBPassword=pass1234  `
+`DBHost=localhost`  
+`DBName=zabbix`   
+`DBUser=zabbix`  
+`DBPassword=pass1234`  
 
 ```php
 chmod 600 /etc/zabbix/zabbix_server.conf
