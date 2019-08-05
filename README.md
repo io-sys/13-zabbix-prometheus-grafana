@@ -1,6 +1,6 @@
 # 13 Zabbix & Prometheus + Grafana
 
-# Install Zabbix from reposytory.
+## Install Zabbix from reposytory.
 
 `SELinux` в `permissive` (необязательный)
 ```php
@@ -70,7 +70,7 @@ mysql> grant all privileges on zabbix.* to zabbix@localhost identified by 'pass1
 mysql> quit;
 ```
 
-`/usr/share/doc/zabbix-server-mysql-4.2.4/` - где раньше были schema, images и data.
+`/usr/share/doc/zabbix-server-mysql-4.2.4/` - где раньше были `schema.sql`, `images.sql` и `data.sql`
 ```php
 zcat /usr/share/doc/zabbix-server-mysql-4.2.4/create.sql.gz | mysql -uzabbix -ppass1234 zabbix
 ```
